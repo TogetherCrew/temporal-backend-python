@@ -2,9 +2,8 @@ import os
 import unittest
 from unittest.mock import AsyncMock, patch
 
-from temporalio.client import Client
-
 from tc_temporal_backend.client import TemporalClient
+from temporalio.client import Client
 
 
 # A fake client object for testing purposes.

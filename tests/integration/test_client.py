@@ -1,9 +1,8 @@
 import os
 import unittest
 
-from temporalio.client import Client
-
 from tc_temporal_backend.client import TemporalClient
+from temporalio.client import Client
 
 
 class TestTemporalClientIntegration(unittest.IsolatedAsyncioTestCase):
