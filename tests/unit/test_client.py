@@ -1,6 +1,7 @@
 import os
 import unittest
-from unittest.mock import patch, AsyncMock
+from unittest.mock import AsyncMock, patch
+
 from tc_temporal_backend.client import TemporalClient
 from temporalio.client import Client
 
