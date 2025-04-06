@@ -13,3 +13,7 @@ class HivemindQueryPayload(BaseModel):
             "having this, it could provide `None` for response and source_nodes"
         ),
     )
+    chat_id: str = Field(
+        ...,
+        description="the chat id to use for answering",
+    )
