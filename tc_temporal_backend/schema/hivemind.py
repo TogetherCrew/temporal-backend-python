@@ -14,6 +14,6 @@ class HivemindQueryPayload(BaseModel):
         ),
     )
     chat_id: str = Field(
-        ...,
+        default="",
         description="the chat id to use for answering",
     )
