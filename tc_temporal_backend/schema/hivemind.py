@@ -17,7 +17,7 @@ class HivemindQueryPayload(BaseModel):
         default="",
         description="the chat id to use for answering",
     )
-    workflow_id: str = Field(
+    workflow_id: str | None = Field(
         default=None,
         description="the workflow id to use for answering",
     )
